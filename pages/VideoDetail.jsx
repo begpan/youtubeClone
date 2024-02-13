@@ -5,6 +5,8 @@ import ReactPlayer from "react-player";
 import { AiFillDislike, AiFillLike } from "react-icons/ai";
 import millify from "millify";
 import StringArea from "../src/components/StringArea";
+import Loader from "../src/components/Loader";
+import VideoCard from "../src/components/VideoCard";
 
 const VideoDetail = () => {
   const [video, setVideo] = useState();
@@ -78,8 +80,15 @@ const VideoDetail = () => {
         )}
       </div>
       {/* alakalı içerikler */}
-      <div>
-        <h1></h1>
+      <div className="flex flex-col gap-5 p-1 sm:p-6 max-sm:mt-6">
+        {!video ? (
+          <Loader />
+        ) : (
+          video.relatedVideos.data.map(
+            (item) =>
+              item.type === "video" && <VideoCard video={item} isRow={true} />
+          )
+        )}
       </div>
     </div>
   );

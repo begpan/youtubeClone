@@ -27,3 +27,34 @@ body {
   background: gray;
   border-radius: 10px;
 }
+
+.detail-page {
+  display: grid;
+  grid-template-columns: auto 400px;
+  gap: 30px;
+}
+
+@media (max-width: 1000px) {
+  .detail-page {
+    grid-template-columns: 1fr;
+  }
+}
+
+.row {
+  display: flex;
+  grid-template-columns: 140px auto;
+  align-items: center;
+  gap: 20px;
+}
+.row .c-pic {
+  display: none;
+}
+
+.row .v-pic {
+  min-width: 145px;
+  height: 80px;
+}
+
+.row .detail p:nth-of-type(1) span:nth-of-type(2) {
+  display: none;
+}
