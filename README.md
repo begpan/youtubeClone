@@ -4,14 +4,14 @@
 
 React with react hooks </br>
 Material UI css framework </br>
-Youtube API from youtube-sr node module </br>
+Youtube API from youtube-sr node module
 
 `How to run locally, dev setup`
 
-Clone repo https://github.com/begpan/youtubeClone
-npm i, install required dependency
+Clone repo https://github.com/begpan/youtubeClone </br>
+`npm i`, install required dependency
 once loading the application in browser, to load Youtube data make sure install extension plugin and enabled.
-This project setup with Create React Vite.
+This project setup with `Create React Vite.`
 
 `Available Scripts`</br>
 In the project directory, you can run: </br>
