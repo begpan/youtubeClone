@@ -4,13 +4,13 @@ import axios from "axios";
 
 const options = {
   headers: {
-    "X-RapidAPI-Key": "231212d91fmshffb83140c2a81bap1f33dbjsnacbedf34ea27",
+    "X-RapidAPI-Key": "75dc092df0msh3c03138e5cc1ea2p19035ejsn916bcc592247",
     "X-RapidAPI-Host": "yt-api.p.rapidapi.com",
   },
 
   params: {
-    lang: "tr",
-    geo: "TR",
+    lang: "en",
+    geo: "US",
   },
 };
 

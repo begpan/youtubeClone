@@ -10,7 +10,6 @@ export const VideoContext = createContext();
 export const VideoProvider = ({ children }) => {
   const [selectedCategory, setSelectedCategory] = useState(categories[0]);
   const [videos, setVideos] = useState(null);
-  console.log(videos);
 
   //   kategori her depşltşpşnde apiden veri al
   useEffect(() => {
