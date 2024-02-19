@@ -23,3 +23,5 @@ The page will reload if you make edits. </br>
 You will also see any lint errors in the console. </br>
 
 <h3>Screen Gif</h3>
+
+![youtube](https://github.com/begpan/youtubeClone/assets/145170180/1c07efe5-fc7a-4ab0-bddd-e967c6766185)
